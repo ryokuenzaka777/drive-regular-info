@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Drive定期便は、Windowsの指定フォルダを自分のGoogleドライブへ定期アップロードする個人利用のアプリです。">
+  <meta name="color-scheme" content="light">
+  <title>Drive定期便</title>
+  <link rel="icon" href="app.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">本文へ移動</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="app.svg" width="36" height="36" alt="">Drive定期便</a>
+    <nav aria-label="メインナビゲーション">
+      <a href="index.html" aria-current="page">アプリについて</a>
+      <a href="privacy.html">プライバシー</a>
+      <a href="terms.html">利用条件</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="intro" aria-labelledby="app-title">
+      <h1 id="app-title">Windowsのフォルダを、<br>Googleドライブへ定期保存。</h1>
+      <p class="lead">Drive定期便は、選択したWindowsフォルダのファイルを、自分のGoogleドライブへ定期的にアップロードするアプリです。作成者本人が、自分のGoogleアカウントで使うために開発しています。</p>
+    </section>
+    <div class="route" aria-label="ファイルの送信経路">
+      <span>Windowsの指定フォルダ</span><span class="route-arrow" aria-hidden="true">→</span><span>自分のGoogleドライブ</span>
+    </div>
+    <section aria-labelledby="features-title">
+      <h2 id="features-title">できること</h2>
+      <dl class="feature-list">
+        <div><dt>フォルダを登録</dt><dd>複数のWindowsフォルダに、それぞれGoogleドライブ内の保存先を設定します。サブフォルダの構成も保持します。</dd></div>
+        <div><dt>時刻を指定</dt><dd>1日最大4件の定刻、曜日指定、一定の間隔から選んで実行します。</dd></div>
+        <div><dt>変更分を保存</dt><dd>新規・変更ファイルをアップロードします。ローカルで削除したファイルはGoogleドライブ側に残ります。</dd></div>
+        <div><dt>バックグラウンドで実行</dt><dd>Windowsのタスクトレイに常駐し、実行結果を履歴で確認できます。PCの起動・ログイン中に動作します。</dd></div>
+      </dl>
+    </section>
+    <section aria-labelledby="connection-title">
+      <h2 id="connection-title">Googleアカウントとの接続</h2>
+      <p>Googleへのログインとアクセス許可は、Googleの認証画面で行います。既存のフォルダを参照し、保存先でファイルを作成・更新するため、Google Drive APIのアクセス権限を使用します。</p>
+      <p>ファイルはこのWindowsアプリからGoogleドライブへ直接送信します。認証情報、設定、実行履歴は利用しているPC内に保存します。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+    </section>
+    <section aria-labelledby="contact-title">
+      <h2 id="contact-title">連絡先</h2>
+      <p>本アプリは作成者本人による個人利用のためのツールです。連絡先には、GoogleのOAuth同意画面に表示されるユーザーサポート用メールアドレスを使用します。</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <span>Drive定期便</span>
+    <nav aria-label="関連ページ"><a href="privacy.html">プライバシーポリシー</a><a href="terms.html">利用条件</a></nav>
+  </footer>
+</body>
+</html>
